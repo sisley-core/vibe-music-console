@@ -4,7 +4,7 @@
 
 **Vibe Console** is an open-source system that combines a physical Stream Deck+ controller with LLM-driven music curation, Apple Music playback, Genelec GLM speaker control, and LG TV automation — all wired together into a seamless one-touch experience.
 
-![Stream Deck+ controlling music through physical knobs and buttons](docs/hero.png)
+![Stream Deck+ controlling music through physical knobs and buttons](docs/hero.jpg)
 
 ## What It Does
 
