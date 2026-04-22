@@ -1,0 +1,158 @@
+{
+	"$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+	"Actions": [
+		{
+			"Name": "GLM Volume",
+			"UUID": "com.vibe.console.volume",
+			"Icon": "static/imgs/actions/volume/icon",
+			"Controllers": [
+				"Encoder"
+			],
+			"Encoder": {
+				"layout": "layouts/volume-layout.json",
+				"TriggerDescription": {
+					"Rotate": "调整音量",
+					"Push": "静音切换",
+					"Touch": "归零 0dB"
+				}
+			},
+			"States": [
+				{
+					"Image": "static/imgs/actions/volume/icon"
+				}
+			]
+		},
+		{
+			"Name": "Vibe Energy",
+			"UUID": "com.vibe.console.energy",
+			"Icon": "static/imgs/actions/energy/icon",
+			"Controllers": [
+				"Encoder"
+			],
+			"Encoder": {
+				"layout": "layouts/axis-layout.json",
+				"TriggerDescription": {
+					"Rotate": "静 ← → 燃",
+					"Push": "AI 生成",
+					"Touch": "AI 生成"
+				}
+			},
+			"States": [
+				{
+					"Image": "static/imgs/actions/energy/icon"
+				}
+			]
+		},
+		{
+			"Name": "Vibe Mood",
+			"UUID": "com.vibe.console.mood",
+			"Icon": "static/imgs/actions/mood/icon",
+			"Controllers": [
+				"Encoder"
+			],
+			"Encoder": {
+				"layout": "layouts/axis-layout.json",
+				"TriggerDescription": {
+					"Rotate": "暗 ← → 亮",
+					"Push": "AI 生成",
+					"Touch": "AI 生成"
+				}
+			},
+			"States": [
+				{
+					"Image": "static/imgs/actions/mood/icon"
+				}
+			]
+		},
+		{
+			"Name": "Vibe Discovery",
+			"UUID": "com.vibe.console.discovery",
+			"Icon": "static/imgs/actions/discovery/icon",
+			"Controllers": [
+				"Encoder"
+			],
+			"Encoder": {
+				"layout": "layouts/axis-layout.json",
+				"TriggerDescription": {
+					"Rotate": "经典 ← → 小众",
+					"Push": "AI 生成",
+					"Touch": "AI 生成"
+				}
+			},
+			"States": [
+				{
+					"Image": "static/imgs/actions/discovery/icon"
+				}
+			]
+		},
+		{
+			"Name": "Vibe Button",
+			"UUID": "com.vibe.console.button",
+			"Icon": "static/imgs/actions/button/icon",
+			"Controllers": [
+				"Keypad"
+			],
+			"PropertyInspectorPath": "ui/button-pi.html",
+			"States": [
+				{
+					"Image": "static/imgs/actions/button/icon"
+				},
+				{
+					"Image": "static/imgs/actions/screensaver/icon"
+				}
+			]
+		}
+	],
+	"Author": "Vibe Console",
+	"Category": "Vibe Console",
+	"CategoryIcon": "static/imgs/plugin/icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Vibe Console - AI Music + GLM Volume for Stream Deck+",
+	"Icon": "static/imgs/plugin/icon",
+	"Name": "Vibe Console",
+	"Nodejs": {
+		"Version": "20"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "13"
+		}
+	],
+	"UUID": "com.vibe.console",
+	"Version": "0.3.0.0",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.7"
+	},
+	"Profiles": [
+		{
+			"Name": "profiles/alice",
+			"DeviceType": 7,
+			"Readonly": false,
+			"DontAutoSwitchWhenInstalled": true,
+			"AutoInstall": true
+		},
+		{
+			"Name": "profiles/bob",
+			"DeviceType": 7,
+			"Readonly": false,
+			"DontAutoSwitchWhenInstalled": true,
+			"AutoInstall": true
+		},
+		{
+			"Name": "profiles/grandma",
+			"DeviceType": 7,
+			"Readonly": false,
+			"DontAutoSwitchWhenInstalled": true,
+			"AutoInstall": true
+		},
+		{
+			"Name": "profiles/home",
+			"DeviceType": 7,
+			"Readonly": false,
+			"DontAutoSwitchWhenInstalled": true,
+			"AutoInstall": true
+		}
+	]
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+plugin/node_modules/
+
+# Build output
+plugin/com.vibe.console.sdPlugin/bin/
+*.js.map
+
+# Plugin logs
+plugin/com.vibe.console.sdPlugin/logs/
+logs/
+
+# Environment & secrets
+.env
+backend/.env
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime data (user's music library metadata)
+memory/
+backend/memory/
+
+# Temp files
+nohup.out
+/tmp/
+*.log

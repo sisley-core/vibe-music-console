@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.elgato.com/streamdeck/plugins/layout.json",
+	"id": "volume-layout",
+	"items": [
+		{
+			"key": "indicator",
+			"type": "bar",
+			"rect": [8, 4, 184, 36],
+			"bar_fill_c": "#4CAF50",
+			"bar_bg_c": "#2A2A2A",
+			"range": { "min": 0, "max": 100 },
+			"value": 50,
+			"border_w": 0
+		},
+		{
+			"key": "value",
+			"type": "text",
+			"rect": [0, 44, 200, 52],
+			"font": { "size": 28, "weight": 700 },
+			"alignment": "center",
+			"color": "#FFFFFF"
+		}
+	]
+}
